@@ -23,6 +23,7 @@ The Binary Latent Block Model (LBM) is a co-clustering approach designed for bin
 - **Code**: Python scripts implementing the LBM-MNAR framework using the PyTorch library.
 - **Notebooks**: Jupyter notebooks for reproducing results on the French Parliamentary Voting dataset.
 - **Figures**: Visualizations of co-clustering results, non-voters' behavior, and classification performance.
+- **Report & slides** : Review of the work done in the article *"Learning from Missing Data Using the Binary Latent Block Model"*.
 
 ## **Usage**
 1. Clone the repository:
