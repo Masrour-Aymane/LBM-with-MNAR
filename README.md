@@ -5,7 +5,6 @@ This repository provides the implementation of the **Binary Latent Block Model (
 ## **Overview**
 The Binary Latent Block Model (LBM) is a co-clustering approach designed for binary data matrices. This extension addresses the challenges posed by missing entries that are **informative**, i.e., not missing completely at random (MCAR). The repository:
 - Implements the **Variational Expectation-Maximization (VEM)** algorithm for efficient parameter inference.
-- Introduces an **Integrated Completed Likelihood (ICL)** criterion for model selection.
 - Provides reproducible results for a real-world case study using the **French Parliamentary Voting Data**.
 
 ## **Features**
@@ -16,11 +15,8 @@ The Binary Latent Block Model (LBM) is a co-clustering approach designed for bin
 2. **Variational Inference**:
    - Efficient approximation of the posterior distribution using a factorized variational approach.
    - Support for entropy and ELBO computation with second-order Taylor approximations.
-
-3. **Model Selection**:
-   - Integration of the ICL criterion to select the number of row and column clusters as well as the appropriate missingness model.
-
-4. **Applications**:
+     
+3. **Applications**:
    - Analysis of the French Parliament voting dataset to uncover voting patterns and interpret non-voter behavior.
 
 ## **Contents**
