@@ -70,9 +70,13 @@ pip install numpy scipy matplotlib argparse
 ```
 
 
-## Usage
+## Usage 1
 
-- run the notebook `LBM_MNAR_review.ipynb` or 
+- run the notebook `LBM_MNAR_review.ipynb`
+
+or
+
+## Usage 2
 - use the script *run_on_dataset_parliament.py*:
 ```bash
 python run_on_dataset_parliament.py
