@@ -27,7 +27,7 @@ This project was completed as part of the master's course on **Unsupervised Lear
 
 ## **Contents**
 - **Code**: Python scripts implementing the LBM-MNAR framework using the PyTorch library.
-- **Notebook**: `LBM_MNAR_review.ipynb` for reproducing results on the French Parliamentary Voting dataset.
+- **Notebook**: `LBM_with_MNAR_review.ipynb` for reproducing results on the French Parliamentary Voting dataset.
 - **Figures**: Visualizations of co-clustering results, non-voters' behavior, and classification performance.
 - **Report & Slides**: Review of the work done in the article *"Learning from Missing Data Using the Binary Latent Block Model"*.
 
@@ -72,7 +72,7 @@ pip install numpy scipy matplotlib argparse
 
 ## Usage 1
 
-- run the notebook `LBM_MNAR_review.ipynb`
+- run the notebook `LBM_with_MNAR_review.ipynb`
 
 or
 
